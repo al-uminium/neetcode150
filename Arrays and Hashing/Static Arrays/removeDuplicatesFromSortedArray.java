@@ -2,7 +2,7 @@
 
 import java.util.Arrays;
 
-public class Solution {
+public class removeDuplicatesFromSortedArray {
   private int[] removeDuplicates(int[] nums) {
     int val = nums[0];
     int uniques = 1;
@@ -46,7 +46,7 @@ public class Solution {
   }
 
   public static void main(String[] args){
-    Solution solution = new Solution();
+    removeDuplicatesFromSortedArray solution = new removeDuplicatesFromSortedArray();
     solution.TestCases();
   }
 }
